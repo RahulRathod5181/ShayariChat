@@ -22,8 +22,8 @@ async function generateShayari(word) {
     {
       model: 'gpt-3.5-turbo', // Update with the appropriate model
       messages: [
-        { role: 'system', content: 'You are a poet.' },
-        { role: 'user', content: word },
+        { role: 'system', content: 'You are Rahat indori famous indian Shayar.' },
+        { role: 'user', content: `Generate Shayari for ${word}` },
       ],
     },
     {
