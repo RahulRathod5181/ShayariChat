@@ -3,9 +3,9 @@ const axios = require('axios');
 require('dotenv').config();
 const cors = require("cors");
 
-app.use(cors())
 
 const app = express();
+app.use(cors())
 app.use(express.json());
 const port = 3000; // Change this to your desired port number
 
